@@ -34,7 +34,7 @@
 }
 
 .red-shadow{
-  box-shadow: 2px 4px rgba(63, 5, 5, 0.851);
+  box-shadow: 0 6px rgba(63, 5, 5, 0.851), 0 6px rgba(63, 5, 5, 0.851);
   color: #fff;
   background: #fd0f0fd9;
   
@@ -43,49 +43,49 @@
 .blue-shadow{
   color: #fff;
   background: #170ffdd9;
-  box-shadow: 2px 4px rgba(5, 13, 63, 0.851);
+  box-shadow: 0 6px rgba(5, 13, 63, 0.851), 0 6px rgba(5, 13, 63, 0.851);
 }
 
 .green-shadow{
   color: #000;
   background: #0ffd0fd9;
-  box-shadow: 2px 4px rgba(5, 63, 5, 0.851);
+  box-shadow: 0 6px rgba(5, 63, 5, 0.851), 0 6px rgba(5, 63, 5, 0.851);
 }
 
 .red-push{
-  box-shadow: 2px 4px rgba(63, 5, 5, 0.851);
+  box-shadow: 0 6px rgba(63, 5, 5, 0.851),0 6px rgba(63, 5, 5, 0.851);
   color: #fff;
   background: #fd0f0fd9;
 }
 
 .red-push:active{
   box-shadow: none;
-  transform: translate(5px, 5px);
+  transform: translate(0, 5px);
 }
 
 .blue-push{
   color: #fff;
   background: #170ffdd9;
-  box-shadow: 2px 4px rgba(5, 13, 63, 0.851);
+  box-shadow: 0 6px rgba(5, 13, 63, 0.851), 0 6px rgba(5, 13, 63, 0.851);
 }
 
 .blue-push:active{
   box-shadow: none;
-  transform: translate(5px, 5px);
+  transform: translate(0, 5px);
 }
 
 .green-push{
   color: #000;
   background: #0ffd0fd9;
-  box-shadow: 2px 4px rgba(5, 63, 5, 0.851);
+  box-shadow: 0 6px rgba(5, 63, 5, 0.851), 0 6px rgba(5, 63, 5, 0.851);
+
 }
 
 .green-push:active{
   box-shadow: none;
-  transform: translate(5px, 5px);
+  transform: translate(0, 5px);
 
 }
-
 
 .line{
   border: 4px double;

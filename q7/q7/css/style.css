@@ -15,20 +15,22 @@
 
 .collar::before{
     position: absolute;
-    top: 100%;
-    left: 40px;
+    bottom: -27px;
+    left: 31px;
     content: "";
-    border: 20px solid transparent;
-    border-top: 20px solid #fad296;
-    z-index: 2;
+    border-right: 22px solid transparent;
+    border-left: 22px solid transparent;
+    border-top: 22px solid  #8f5a0a;
+    
 }
 
 .collar::after{
     position: absolute;
-    top: 100%;
+    bottom: -20px;
     left: 33px;
     content: "";
-    border: 27px solid transparent;
-    border-top: 27px solid #8f5a0a;
-    z-index: 1;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-top: 20px solid #fad296;
+    
 }
